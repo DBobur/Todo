@@ -1,4 +1,7 @@
 package todo.model;
 
-public class TodoStatus {
+public enum TodoStatus {
+    CREATED,
+    BEGINNING,
+    COMPLETED;
 }
